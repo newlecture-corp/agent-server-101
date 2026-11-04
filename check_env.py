@@ -1,4 +1,4 @@
-"""0단계 환경 점검.
+"""1단계 환경 점검.
 
 실행:  uv run python check_env.py
 """
@@ -19,7 +19,7 @@ def main() -> int:
         print("가상환경 밖에서 실행했다. `uv run python check_env.py` 로 실행한다.")
         return 1
 
-    print("환경 준비 완료. 1단계로 넘어간다.")
+    print("환경 준비 완료. 2단계로 넘어간다.")
     return 0
 
 
